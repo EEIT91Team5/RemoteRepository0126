@@ -18,7 +18,7 @@ import org.springframework.web.bind.annotation.RequestMethod;
 import misc.CustomPrimitiveNumberEditor;
 import model.ProductBean;
 import model.ProductService;
-   
+
 @Controller
 @RequestMapping(path={"/pages/product.controller"})
 public class ProductController {
