@@ -12,7 +12,7 @@ import org.springframework.web.bind.annotation.SessionAttributes;
 
 import model.CustomerBean;
 import model.CustomerService;
-
+   
 @Controller
 @RequestMapping(path={"/secure/login.controller"})
 @SessionAttributes(names={"user"})
